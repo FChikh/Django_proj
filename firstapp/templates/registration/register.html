@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <title>Регистрация</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #000647;
+            font-family: "American Typewriter";
+        }
+    </style>
+</head>
+<body>
+<form action="/register" method="POST">
+    {% csrf_token %}
+    <div class="pl-2">
+        <br>
+        <h6>{{ form.as_p }}</h6>
+        <input type="submit" title="submit">
+    </div>
+
+</form>
+</body>
+</html>

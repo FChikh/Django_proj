@@ -1,0 +1,32 @@
+input {
+    display: block;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 6px;
+    border: 2px solid #F1B720;
+    border-radius: 2px;
+    color: #333;
+    transition: all 0.3s ease-out;
+}
+
+input:hover {
+    border-radius: 2px
+}
+
+input:focus {
+    outline: none;
+    border-radius: 2px;
+    border-color: #EBD292;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #F1B720;
+}
+
+body {
+    background-color: #fff8ad;
+}
