@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '+h1_osc--x8(&)6&@gsj7ih*u=a-pc
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['secure-coast-58335.herokuapp.com']
+ALLOWED_HOSTS = ['shp-django-project.herokuapp.com']
 
 # Application definition
 
